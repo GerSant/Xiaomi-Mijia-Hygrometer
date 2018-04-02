@@ -1,7 +1,7 @@
 #!/bin/bash
 #----------------------------------------------
 mqttbroker="localhost"
-blemacs="4C:65:A8:D0:AA:BB"
+blemacs="4C:65:A8:D0:43:35"
 cmdprefix="Notification handle = 0x000e value:"
 tempprefix="T="
 topicprefix="tele/hygrometer-"
@@ -31,3 +31,4 @@ for c in $blemacs; do
     echo " / Humi: "${stripedhumi}
   fi
 done
+
