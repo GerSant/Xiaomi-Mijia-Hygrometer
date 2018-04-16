@@ -5,4 +5,4 @@ Resources for the new Xiaomi Mijia Bluetooth Hygrometer
 
 The hygro-pool.sh bash script is intended to query, in every execution, an array of Hygrometers represented by his Bluetooth MAC Addresses, and wirte the results (Temperature and Humidity) in separate MQTT Topcis.
 
-Soon the Homebridge plugin :)
+For Homebridge plugin go to [Hannseman Github repo](https://github.com/hannseman/homebridge-mi-hygrothermograph)
